@@ -1,0 +1,2 @@
+syscall number            system architecture           systemcall          sys_systemcall  
+336                       x64                           sjf                 sys_sjf      
