@@ -38,6 +38,12 @@ Procedure and Prerequisites:
           NOTE: Refer to the file I have attached named as kernel_space/include/linux/syscalls.h for an example
        
  6)	Make a .config file and compile your kernel to implement the changes and and to add your system call.
+      
+         For .config file creation, there are two options to get it created. 
+         
+         The first option is to copy the .config file present in the  /boot directory of your current kernel to the base directory of your new kernel directory. This would take couple of hours to compile the kernel so it is recommended to use the second method.
+         
+         The second option is to use two series of command, first is "make menuconfig" and the second is "make localmodconfig"
            
            NOTE: IT can take up to 2 hours so be patient while compiling it.
            
