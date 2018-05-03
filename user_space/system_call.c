@@ -6,7 +6,7 @@
 #include<unistd.h>
 #include<sys/wait.h>
 
-#define sjf_preemptive 339  // System Call Number Defined in syscalls.h present in include/linux
+#define sjf_preemptive 339  // System Call Number Defined in syscall_64.tbl present in arch/x86/syscalls
 
 int main()
 {
