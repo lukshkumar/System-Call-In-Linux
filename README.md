@@ -49,7 +49,7 @@ Procedure and Prerequisites:
            
  7)	Create a user space program and call your system call with the number you allocated into the system call table.
  
-           NOTE: Refer to the file I have attached named as user_space/last.c
+           NOTE: Refer to the file I have attached named as user_space/system_call.c
            
  8) Run the “dmesg” command and verify the working of your system call.
  
