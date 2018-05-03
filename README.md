@@ -41,9 +41,9 @@ Procedure and Prerequisites:
       
          For .config file creation, there are two options to get it created. 
          
-         The first option is to copy the .config file present in the  /boot directory of your current kernel to the base directory of your new kernel directory. This would take couple of hours to compile the kernel so it is recommended to use the second method.
+         The first option is to copy the .config file present in the  /boot directory of your current kernel to the base directory of your new kernel directory. This would take couple of hours to compile the kernel since this option includes all the kernel modules support for your architecture(may also include kernel module support which you would not need in the near future) so it is recommended to use the second method.
          
-         The second option is to use two series of command, first is "make menuconfig" and the second is "make localmodconfig"
+         The second option is to use two series of command, first is "make menuconfig" and the second is "make localmodconfig". This would make the .config file for only the modules currently attached to the computer and hence would take much less time.
            
            NOTE: IT can take up to 2 hours so be patient while compiling it.
            
