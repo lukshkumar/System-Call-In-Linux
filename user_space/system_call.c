@@ -17,15 +17,11 @@ int main()
 		wait(NULL);
 		
 			long int s = syscall(sjf_preemptive);
-			execlp("./shell2.sh","./shell2.sh",(char*)0);		
-					
-		
+			execlp("./shell2.sh","./shell2.sh",(char*)0);	// Used for running the shell file to get the output for user-space	
 	}
 	else
 	{
-
 	execlp("./shell.sh","./shell.sh",(char*)0);	
-	
 	}
 
 	return 0;
